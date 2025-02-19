@@ -70,6 +70,18 @@ namespace NewLiveSimulator
             nudDensity.Enabled = true;
         }
 
+        private void ContinueGame()
+        {
+            if (timer1.Enabled)
+            {
+                return;
+            }
+            timer1.Start();
+
+            nudResolution.Enabled = false;
+            nudDensity.Enabled = false;
+        }
+
         private void NextGeneration()
         {
             graphics.Clear(Color.Black);
@@ -145,6 +157,11 @@ namespace NewLiveSimulator
         private void Stopbtn_Click(object sender, EventArgs e)
         {
             StopGame();
+        }
+
+        private void Continuebtn_Click(object sender, EventArgs e)
+        {
+            ContinueGame();
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
