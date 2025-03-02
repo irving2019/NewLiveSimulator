@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
 [assembly: AssemblyTitle("NewLiveSimulator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Live Simulator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Vladimir Pilipenko")]
 [assembly: AssemblyProduct("NewLiveSimulator")]
-[assembly: AssemblyCopyright("Copyright ©  2025")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Vladimir Pilipenko  2025")]
+[assembly: AssemblyTrademark("Vladimir Pilipenko")]
 [assembly: AssemblyCulture("")]
 
 // Установка значения False для параметра ComVisible делает типы в этой сборке невидимыми
@@ -30,4 +30,4 @@ using System.Runtime.InteropServices;
 //      Редакция
 //
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("2.3.0.0")]
